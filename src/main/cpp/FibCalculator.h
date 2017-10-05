@@ -32,7 +32,7 @@ public:
      * @param n an index into the Fibonacci sequence beginning at 0.
      * @return The nth number in the Fibonacci sequence is returned.
      */
-    virtual int nthFibonacciNumber(int n) const = 0;
+    virtual int nthFibonacciNumber(int n) = 0;
 };
 
 #endif // LAB05_FIB_CALCULATOR_H__

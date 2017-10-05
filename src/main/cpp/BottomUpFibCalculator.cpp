@@ -4,13 +4,13 @@
 *
 * @file    BottomUpFibCalculator.cpp
 * @authors Jim Daehn <jdaehn@missouristate.edu>
-*          Your Name <your_name@missouristate.edu>
+*          Humberto Colin <colin010@live.missouristate.edu>
 * @brief   Definition of BottomUpFibCalculator.
 */
 
 #include "BottomUpFibCalculator.h"
 
 int BottomUpFibCalculator::nthFibonacciNumber(int n) const {
-    // TODO: Implement me using the algorithm shown in the README.md file of this project.
-    return 0;
+    
+
 }

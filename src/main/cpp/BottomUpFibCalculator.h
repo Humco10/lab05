@@ -4,7 +4,7 @@
  *
  * @file    BottomUpFibCalculator.h
  * @authors Jim Daehn <jdaehn@missouristate.edu>
- *          Your Name <your_name@missouristate.edu>
+ *          Humberto Colin <colin010@live.missouristate.edu>
  * @brief   Specification of BottomUpFibCalculator.
 */
 

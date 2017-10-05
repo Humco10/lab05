@@ -4,13 +4,16 @@
  *
  * @file    TopDownFibCalculator.cpp
  * @authors Jim Daehn <jdaehn@missouristate.edu>
- *          Your Name <yname@missouristate.edu>
+ *          Humberto Colin <colin010@live.missouristate.edu>
  * @brief   Definition of TopDownFibCalculator.
  */
 
 #include "TopDownFibCalculator.h"
 
 int TopDownFibCalculator::nthFibonacciNumber(int n) const {
-    // TODO: Implement me using the algorithm shown in the README.md file of this project.
-    return 0;
+  map<int,int>m;
+    m[0]=1;
+    m[1]=1;
+
+    if(m[])
 }
