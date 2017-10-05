@@ -19,6 +19,12 @@
  */
 class TopDownFibCalculator : public FibCalculator {
 public:
+
+    /**
+     * Default constructor.
+     */
+    TopDownFibCalculator() = default;
+
     /**
      * Calculates the nth Fibonacci number using a top-down, dynamic programming approach.
      *
@@ -27,7 +33,11 @@ public:
      * @return The nth number in the Fibonacci sequence is returned.
      */
     int nthFibonacciNumber(int n) const override;
-    virtual ~TopDownFibCalculator() {}
+
+    /**
+     * Default destructor.
+     */
+    virtual ~TopDownFibCalculator() = default;
 };
 
 #endif //LAB05_TOP_DOWN_FIB_CALCULATOR_H__
