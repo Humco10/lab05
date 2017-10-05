@@ -49,9 +49,9 @@ set(CPPUNIT_LIBRARY
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SRC_MAIN_FILES src/main/cpp/Main.cpp)
-set(SRC_DEMO_FILES src/main/cpp/Demo.cpp)
-set(SRC_TEST_FILES src/test/cpp/UnitTestRunner.cpp)
+set(SRC_MAIN_FILES src/main/cpp/Main.cpp src/main/cpp/FibCalculator.h src/main/cpp/TopDownFibCalculator.cpp src/main/cpp/TopDownFibCalculator.h src/main/cpp/BottomUpFibCalculator.cpp src/main/cpp/BottomUpFibCalculator.h)
+set(SRC_DEMO_FILES src/main/cpp/Demo.cpp src/main/cpp/FibCalculator.h src/main/cpp/TopDownFibCalculator.cpp src/main/cpp/TopDownFibCalculator.h src/main/cpp/BottomUpFibCalculator.cpp src/main/cpp/BottomUpFibCalculator.h)
+set(SRC_TEST_FILES src/test/cpp/UnitTestRunner.cpp src/main/cpp/FibCalculator.h src/main/cpp/TopDownFibCalculator.cpp src/main/cpp/TopDownFibCalculator.h src/main/cpp/BottomUpFibCalculator.cpp src/main/cpp/BottomUpFibCalculator.h src/test/cpp/TestUtils.cpp src/test/cpp/TopDownFibCalculatorTest.cpp src/test/cpp/TopDownFibCalculatorTest.h src/test/cpp/BottomUpFibCalculatorTest.cpp src/test/cpp/BottomUpFibCalculatorTest.h)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)
 
