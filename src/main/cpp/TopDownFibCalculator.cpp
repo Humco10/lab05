@@ -9,11 +9,14 @@
  */
 
 #include "TopDownFibCalculator.h"
+#include "map"
 
-int TopDownFibCalculator::nthFibonacciNumber(int n) const {
-  map<int,int>m;
+int TopDownFibCalculator::nthFibonacciNumber(int n)  {
     m[0]=1;
     m[1]=1;
 
-    if(m[])
+    if(m.find(n) == m.end()){
+        m[n] = nthFibonacciNumber(n -1 )+nthFibonacciNumber(n-2);
+    }
+    return m[n];
 }

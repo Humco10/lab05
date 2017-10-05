@@ -31,7 +31,7 @@ public:
      * @param n an index into the Fibonacci sequence beginning at 0.
      * @return The nth number in the Fibonacci sequence is returned.
      */
-    int nthFibonacciNumber(int n) const override;
+    int nthFibonacciNumber(int n) override;
 
     /**
      * Default destructor.

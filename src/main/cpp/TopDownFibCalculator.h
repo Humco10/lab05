@@ -12,6 +12,7 @@
 #define LAB05_TOP_DOWN_FIB_CALCULATOR_H__
 
 #include "FibCalculator.h"
+#include <map>
 
 /**
  * An implementation of the <code>FibCalculator</code> that uses top-down dynamic programming approaches where
@@ -32,12 +33,15 @@ public:
      * @param n an index into the Fibonaaci sequence beginning at 0.
      * @return The nth number in the Fibonacci sequence is returned.
      */
-    int nthFibonacciNumber(int n) const override;
+    int nthFibonacciNumber(int n) override;
 
     /**
      * Default destructor.
      */
     virtual ~TopDownFibCalculator() = default;
+
+private:
+    std::map<int,int>m;
 };
 
 #endif //LAB05_TOP_DOWN_FIB_CALCULATOR_H__

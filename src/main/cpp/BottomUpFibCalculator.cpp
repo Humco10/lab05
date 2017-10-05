@@ -10,7 +10,16 @@
 
 #include "BottomUpFibCalculator.h"
 
-int BottomUpFibCalculator::nthFibonacciNumber(int n) const {
-    
-
+int BottomUpFibCalculator::nthFibonacciNumber(int n) {
+    if (n==0)
+        return 1;
+    else{
+        int previousFib=1,currentFib=1,newFib=1;
+        for (int i=2;i<=n;++i){
+            newFib=previousFib+currentFib;
+            previousFib=currentFib;
+            currentFib=newFib;
+        }
+        return (newFib);
+    }
 }
